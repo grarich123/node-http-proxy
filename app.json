@@ -1,0 +1,7 @@
+{
+  "name": "my-node-proxy",
+  "description": "A https-to-https proxy",
+  "repository": "https://github.com/caywood/node-http-proxy",
+  "logo": "https://node-js-sample.herokuapp.com/node.svg",
+  "keywords": []
+}
