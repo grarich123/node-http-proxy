@@ -30,7 +30,7 @@ var https = require('https'),
     path  = require('path'),
     fs    = require('fs'),
     colors = require('colors'),
-    httpProxy = require('../../lib/http-proxy');
+    httpProxy = require('./lib/http-proxy');
 
 //
 // Create a HTTP Proxy server with a HTTPS target
