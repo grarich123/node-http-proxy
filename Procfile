@@ -1,1 +1,1 @@
-web: node proxy-http-to-https.js
+web: node app
