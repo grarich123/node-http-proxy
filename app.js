@@ -41,6 +41,6 @@ httpProxy.createProxyServer({
   headers: {
     host: 'secure.prontocycleshare.com'
   }
-}).listen(8011);
+}).listen(process.env.PORT || 8888);
 
 util.puts('http proxy server'.blue + ' started '.green.bold + 'on port '.blue + '8011'.yellow);
