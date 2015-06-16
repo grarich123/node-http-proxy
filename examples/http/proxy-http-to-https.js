@@ -36,10 +36,10 @@ var https = require('https'),
 // Create a HTTP Proxy server with a HTTPS target
 //
 httpProxy.createProxyServer({
-  target: 'https://secure.prontocycleshare.com',
+  target: 'https://www.car2go.com/',
   agent  : https.globalAgent,
   headers: {
-    host: 'secure.prontocycleshare.com'
+    host: 'www.car2go.com/'
   }
 }).listen(8011);
 
