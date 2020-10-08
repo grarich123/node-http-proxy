@@ -9,7 +9,7 @@ httpProxy.createProxyServer({
   target: 'https://google.com',
   agent  : https.globalAgent,
   headers: {
-    host: 'google.com'
+    host: 'https://node-youtube.herokuapp.com/'
   }
 }).listen(process.env.PORT || 8888);
 
