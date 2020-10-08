@@ -5,12 +5,6 @@ var https = require('https'),
 //
 // Create a HTTP Proxy server with a HTTPS target
 //
-httpProxy.createProxyServer({
-  target: 'https://google.com',
-  agent  : https.globalAgent,
-  headers: {
-    host: 'https://node-youtube.herokuapp.com/'
-  }
+http.createServer(function(req, res) {
+  proxy.web(req, res, { target: 'https://google.com' });
 }).listen(process.env.PORT || 8888);
-
-console.log('started http proxy server');
