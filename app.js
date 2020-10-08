@@ -1,6 +1,5 @@
 var https = require('https'),
     http  = require('http'),
-    util  = require('util'),
     httpProxy = require('./lib/http-proxy');
 
 //
@@ -14,4 +13,4 @@ httpProxy.createProxyServer({
   }
 }).listen(process.env.PORT || 8888);
 
-util.puts('started http proxy server');
+console.log('started http proxy server');
